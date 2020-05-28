@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/inserirMenu"
+        android:title="Inserir"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_black_24dp" />
+
+    <item android:id="@+id/opcoesMenu"
+        android:title="Opções"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_black_24dp" >
+
+        <menu>
+
+        <item android:id="@+id/mostrarTudoMenu"
+            android:title="Exibir Tudo"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_select_all_black_24dp"/>
+        <item android:id="@+id/acordarMenu"
+            android:title="Acordar"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_notifications_active_black_24dp" />
+
+        <item android:id="@+id/dormirMenu"
+            android:title="Dormir"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_notifications_paused_black_24dp" />
+
+        <item android:id="@+id/trocarMenu"
+            android:title="Trocar"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_swap_horiz_black_24dp" />
+
+        <item android:id="@+id/alimentarMenu"
+            android:title="Alimentar"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_cake_black_24dp" />
+
+        <item android:id="@+id/resumoMenu"
+            android:title="Resumo"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_today_black_24dp" />
+        </menu>
+    </item>
+</menu>

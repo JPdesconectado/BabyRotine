@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BabyRotine</string>
+    <string name="acordou">ACORDOU</string>
+    <string name="dormiu">DORMIU</string>
+    <string name="trocou">TROCOU</string>
+    <string name="alimentou">ALIMENTOU</string>
+    <string name="textinho">A EDIÇÃO PODERÁ PROVOCAR INCONSISTÊNCIA NOS RESUMOS, TENHA CERTEZA ANTES DE PROSSEGUIR.</string>
+</resources>
